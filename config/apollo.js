@@ -2,7 +2,7 @@ import {ApolloClient, InMemoryCache, createHttpLink} from '@apollo/client'
 import {setContext} from 'apollo-link-context'
 
 const httpLink = createHttpLink({
-    uri: 'http://localhost:4000/'
+    uri: 'https://crmbackend-dev-akjx.3.us-1.fl0.io'
 });
 
 const authLink = setContext((_,{headers})=>{
