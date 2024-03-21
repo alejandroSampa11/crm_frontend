@@ -7,7 +7,7 @@ import { useMutation } from "@apollo/client"
 import { useState } from "react"
 import { useRouter } from "next/router"
 
-function nuevoProducto() {
+function NuevoProducto() {
     //STATES
     const [mensaje, setMensaje] = useState('');
     //MUTATION
@@ -168,4 +168,4 @@ function nuevoProducto() {
   )
 }
 
-export default nuevoProducto
+export default NuevoProducto

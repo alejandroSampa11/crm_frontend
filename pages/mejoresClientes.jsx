@@ -5,7 +5,7 @@ import { PureComponent, useEffect } from 'react';
 import { BarChart, Bar, Rectangle, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import { MEJORES_CLIENTES } from "../graphql/queries";
 
-function mejoresClientes() {
+function MejoresClientes() {
     const { data, loading, error, startPolling, stopPolling } = useQuery(MEJORES_CLIENTES)
 
     useEffect(()=>{
@@ -55,4 +55,4 @@ function mejoresClientes() {
     )
 }
 
-export default mejoresClientes
+export default MejoresClientes

@@ -7,7 +7,7 @@ import { MEJORES_VENDEDORES } from "../graphql/queries";
 
 
 
-function mejoresVendedores() {
+function MejoresVendedores() {
     const {data, loading, error, startPolling, stopPolling} = useQuery(MEJORES_VENDEDORES)
 
     useEffect(()=>{
@@ -58,4 +58,4 @@ function mejoresVendedores() {
     )
 }
 
-export default mejoresVendedores
+export default MejoresVendedores

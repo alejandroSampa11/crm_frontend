@@ -26,7 +26,7 @@ query obtenerClientesVendedor{
 }
 `;
 
-function nuevoCliente() {
+function NuevoCliente() {
     //STATES
     const [mensaje, setMensaje] = useState("");
 
@@ -228,4 +228,4 @@ function nuevoCliente() {
     )
 }
 
-export default nuevoCliente
+export default NuevoCliente
