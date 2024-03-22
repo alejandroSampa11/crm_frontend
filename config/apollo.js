@@ -1,8 +1,9 @@
 import {ApolloClient, InMemoryCache, createHttpLink} from '@apollo/client'
+// import fetch from 'node-fetch'
 import {setContext} from 'apollo-link-context'
 
 const httpLink = createHttpLink({
-    uri: 'https://crm-backend-ipm3.onrender.com'
+    uri: 'https://crm-backend-sw44.onrender.com/'
 });
 
 const authLink = setContext((_,{headers})=>{
